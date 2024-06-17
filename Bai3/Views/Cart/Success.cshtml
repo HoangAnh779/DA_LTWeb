@@ -1,0 +1,71 @@
+﻿@model Bai3.ViewModels.CartViewModels
+<div class="momo-payment">
+    <div class="momo-detail-background" style="border-radius: 4px;">
+        <div class="momo-detail">
+            <div>
+                <h3>Đơn hàng hết hạn sau</h3>
+                <p class="time">29:59</p>
+            </div>
+            <div class="momo-payment-detail supplier">
+                <h3>Nhà cung cấp:</h3>
+                <p style="font-weight: 700; margin-left: 25px">Momo Payment</p>
+            </div>
+            <div class="price">
+                <h3>
+                    <i class="fa fa-money paymen-icon-detail" aria-hidden="true"></i>
+                    Số tiền
+                </h3>
+                <p class="time" style="margin-left: 25px">
+                    95.000đ
+                </p>
+            </div>
+            <div class="detail">
+                <h3>
+                    <i class="fa fa-credit-card paymen-icon-detail" aria-hidden="true"></i>
+                    Thông tin
+                </h3>
+                <p style="margin-left: 25px">
+                    Anh Huy
+                </p>
+                <p style="margin-left: 25px">
+                    (anhhuy@exam.com) pays order #0000
+                </p>
+            </div>
+            <div class="name-detail">
+                <h3>
+                    <i class="fa fa-barcode paymen-icon-detail" aria-hidden="true"></i>
+                    Đơn hàng
+                </h3>
+                <p style="margin-left: 25px">S030203202-1-3</p>
+            </div>
+            <div class="back-button" style="display: flex; margin: auto">
+                <a href="/thanh-toan" style="font-weight: 700;">
+                    <i class="fa fa-arrow-left paymen-icon-detail" aria-hidden="true"></i>
+                    Quay lại
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="momo-qr">
+        <div class="header-momo">
+            <div class ="logo">
+                <img src="/images/products/momo-logo.png" alt="Momo" />
+            </div>
+            <div class="logo" style="border-radius:4px">
+                <img src="/images/products/phuclong2.png" alt="Momo" style="height: 75px; width: auto; margin-left: 4.88px; border-radius: 6px;"/>
+            </div>
+        </div>
+        <div class="momo-qr-content">
+            <p class="header">Quét mã để thanh toán</p>
+            <img src="/images/products/momo-qr.jpg" alt="Momo" />
+            
+            <p class="decs"><i class="fa fa-qrcode" aria-hidden="true"></i>
+                Sử dụng App MoMo hoặc ứng dụng Camera hỗ trợ QR code để quét mã.
+            </p>
+            <p class="loading">
+                <i class="fa fa-spin fa-spinner" aria-hidden="true" style="margin-right: 10px"></i>
+                Đang chờ quét mã ...
+            </p>
+        </div>
+    </div>
+</div>

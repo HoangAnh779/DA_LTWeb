@@ -1,0 +1,80 @@
+﻿@model Bai3.ViewModels.ProductViewModel
+
+@foreach (var item in Model.Prods)
+{
+     <div class="row" style="width:1300px; margin:0 auto; display:flex; justify-content: center">
+        <div class="" style="width: max-content; margin-right: 30px;">
+             <div class="row">
+                <div class=" text-center" style="width: 500px">
+                         <img id="mainImage" src="~/images/products/@item.Img1" alt="Main Image" class="img-responsive main-image" style="padding: 40px; width: 100%" ></div>
+             </div>
+            
+             <div class="row" style="display:flex; justify-content: center">
+                <div class="" style="width: 100px; margin-right: 16px;">
+                    <img src="~/images/products/@item.Img2" alt="Thumbnail 1" class="img-responsive thumbnail" style="padding:10px;" onclick="changeImage(this)">
+                </div>
+                <div class="" style="width: 100px">
+                    <img src="~/images/products/@item.Img3" alt="Thumbnail 2" class="img-responsive thumbnail" style="padding:10px; width: 400px" onclick="changeImage(this)">
+                </div>
+            </div>
+        </div>
+        <div class="products-detail" style="width:40%; margin-top:7.5%; margin-left:5%;">
+            <h2 style="font-size: 20px; font-weight: 700; color: #0C713D;">@item.NamePro</h2>
+            <h4 style="font-size: 16px;">Giá gốc: <strike style="color:red;">@string.Format("{0:N0}", (float)item.Price * 1.5) VNĐ</strike></h4>
+            <h4 style="font-size: 16px;">Giá giảm sốc: <i style="font-weight: bold; color: green;">@string.Format("{0:N0}", (float)item.Price) VNĐ</i></h4>
+            <h4 style="font-size: 16px;">Các lựa chọn hiện có :</h4>
+
+            <form>
+                <div class="form-group">
+                    <label class=" control-label">Size: </label>
+                    <div class="products-detail">
+                        <select class="form-control">
+                            <option>S</option>
+                            <option>M</option>
+                            <option>L</option>
+                            <option>XL</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="control-label">Quantity: </label>
+                    <div class="products-detail">
+                        <select class="form-control">
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                            <option>6</option>
+                            <option>7</option>
+                            <option>8</option>
+                            <option>9</option>
+                            <option>10</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div>
+                        <a class="btn btn-success" href="/them-gio-hang?ProductId=@item.IdPro&Quantity=1" style="margin-top: 5px;">
+                            Mua ngay
+                        </a>
+                    </div>
+                </div>
+
+            </form>
+        </div>
+     </div>
+}
+
+@section scripts {
+    <script>
+        function changeImage(img) {
+            var mainImage = document.getElementById('mainImage');
+            var tempSrc = mainImage.src;
+            mainImage.src = img.src;
+            img.src = tempSrc;
+        }
+    </script>
+}

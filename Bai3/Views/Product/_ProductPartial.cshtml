@@ -1,0 +1,143 @@
+﻿@model Bai3.ViewModels.ProductViewModel
+
+<div class="products">
+    <div class="panel panel-prod">
+    <div class="panel-heading panel-heading-prod"> @Model.DaxayCateProds.NameCat</div>
+    <div class="panel-body">
+        <div class="row">
+            @foreach (var item in Model.DaxayProds)
+            {
+                <div class="col-md-3">
+                    <div class="thumbnail">
+                        <img src="~/images/products/@item.Img1" class="img-rounded" alt="@item.NamePro">
+                        <div class="caption">
+                            <h4>@item.NamePro</h4>
+                            <p>Giá: @string.Format("{0:N0}", item.Price) VNĐ</p>
+                            <p>
+                                <a href="san-pham/@item.Link-@item.IdPro" class="btn btn-info" role="button">Đặt Hàng</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+    <div class="panel-footer">
+        <p class="more-prod">
+            <a href="@Model.DaxayCateProds.Link-@Model.DaxayCateProds.IdCat"> Xem thêm sản phẩm...</a>
+        </p>
+    </div>
+</div>
+
+<div class="panel panel-prod">
+    <div class="panel-heading panel-heading-prod"> @Model.TraCateProds.NameCat</div>
+    <div class="panel-body">
+        <div class="row">
+            @foreach (var item in Model.TraProds)
+            {
+                <div class="col-md-3">
+                    <div class="thumbnail">
+                        <img src="~/images/products/@item.Img1" class="img-rounded" alt="@item.NamePro">
+                        <div class="caption">
+                            <h4>@item.NamePro</h4>
+                            <p>Giá: @string.Format("{0:N0}", item.Price) VNĐ</p>
+                            <p>
+                                <a href="san-pham/@item.Link-@item.IdPro" class="btn btn-info" role="button">Đặt Hàng</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+    <div class="panel-footer">
+        <p class="more-prod">
+            <a href="@Model.TraCateProds.Link-@Model.TraCateProds.IdCat">Xem thêm sản phẩm...</a>
+        </p>
+    </div>
+</div>
+
+<div class="panel panel-prod">
+    <div class="panel-heading panel-heading-prod"> @Model.TrahopCateProds.NameCat</div>
+    <div class="panel-body">
+        <div class="row">
+            @foreach (var item in Model.TrahopProds)
+            {
+                <div class="col-md-3">
+                    <div class="thumbnail">
+                        <img src="~/images/products/@item.Img1" class="img-rounded" alt="@item.NamePro">
+                        <div class="caption">
+                            <h4>@item.NamePro</h4>
+                            <p>Giá: @string.Format("{0:N0}", item.Price) VNĐ</p>
+                            <p>
+                                <a href="san-pham/@item.Link-@item.IdPro" class="btn btn-info" role="button">Đặt Hàng</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+    <div class="panel-footer">
+        <p class="more-prod">
+            <a href="@Model.TrahopCateProds.Link-@Model.TrahopCateProds.IdCat">Xem thêm sản phẩm...</a>
+        </p>
+    </div>
+</div>
+
+<div class="panel panel-prod">
+    <div class="panel-heading panel-heading-prod"> @Model.TragoiCateProds.NameCat</div>
+    <div class="panel-body">
+        <div class="row">
+            @foreach (var item in Model.TragoiProds)
+            {
+                <div class="col-md-3">
+                    <div class="thumbnail">
+                        <img src="~/images/products/@item.Img1" class="img-rounded" alt="@item.NamePro">
+                        <div class="caption">
+                            <h4>@item.NamePro</h4>
+                            <p>Giá: @string.Format("{0:N0}", item.Price) VNĐ</p>
+                            <p>
+                                <a href="san-pham/@item.Link-@item.IdPro" class="btn btn-info" role="button">Đặt Hàng</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+    <div class="panel-footer">
+        <p class="more-prod">
+            <a href="@Model.TragoiCateProds.Link-@Model.TragoiCateProds.IdCat">Xem thêm sản phẩm...</a>
+        </p>
+    </div>
+</div>
+
+<div class="panel panel-prod">
+    <div class="panel-heading panel-heading-prod"> @Model.TralonCateProds.NameCat</div>
+    <div class="panel-body">
+        <div class="row">
+            @foreach (var item in Model.TralonProds)
+            {
+                <div class="col-md-3">
+                    <div class="thumbnail">
+                        <img src="~/images/products/@item.Img1" class="img-rounded" alt="@item.NamePro">
+                        <div class="caption">
+                            <h4>@item.NamePro</h4>
+                            <p>Giá: @string.Format("{0:N0}", item.Price) VNĐ</p>
+                            <p>
+                                <a href="san-pham/@item.Link-@item.IdPro" class="btn btn-info" role="button">Đặt Hàng</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+    <div class="panel-footer">
+        <p class="more-prod">
+            <a href="@Model.TralonCateProds.Link-@Model.TralonCateProds.IdCat">Xem thêm sản phẩm...</a>
+        </p>
+    </div>
+</div>
+</div>

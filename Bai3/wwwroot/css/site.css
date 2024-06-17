@@ -1,0 +1,338 @@
+.main-container{
+    width: 1300px;
+    justify-content: space-between;
+}
+
+.container{
+    width: 1300px;
+}
+
+.navbar {
+    border-radius: 0;
+    margin: 4px auto;
+    border: 0;
+    align-items: center;
+    display: flex;
+}
+
+.navbar-container {
+    width: 100%;
+}
+
+.navbar-inverse {
+    margin-top: 5px;
+    height: 100%;
+    width: 1300px;
+}
+
+    .navbar-inverse .navbar-nav > li > a {
+        color: #fff;
+        text-transform: uppercase;
+
+    }
+
+        .navbar-inverse .navbar-nav > li > a:hover,
+        .navbar-inverse .navbar-nav > li > a:focus {
+            color: #fff;
+            background-color: #00800086;
+            font-weight: bold;
+            
+        }
+
+    .navbar-inverse .navbar-toggle .icon-bar {
+        background-color: #fff;
+        width:100px
+    }
+
+.panel-prod {
+    margin-top: 15px;
+}
+
+.panel-heading-prod {
+    font-weight: bold;
+    font-size: 25px;
+    color: grey;
+    display: flex;
+    justify-content: center;
+}
+
+.caption {
+    text-align: center;
+}
+
+.more-prod a{
+    color: grey;
+    justify-content: end;
+    display: flex;
+}
+
+.panel-primary > .panel-heading {
+    color: #fff;
+    background-color: green;
+    border-color: black;
+}
+
+.panel-primary {
+    border-color: black;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.more-prod > a {
+    text-decoration: none;
+}
+
+.panel-post {
+    margin-right: -25px;
+}
+
+
+.panel-body-post {
+    text-align: justify;
+    border-color: black;
+}
+
+.img-adv {
+    text-align: center;
+    width: 100%;
+}
+
+.logo {
+    margin: 0 20px;
+    width: 50%;
+}
+
+.panel-info > .panel-heading {
+}
+
+.panel-success > .panel-heading {
+}
+
+.panel-body {
+    padding: 0;
+    margin-top: 10px;
+}
+
+.thumbnail img {
+    padding: 20px;
+}
+
+.panel-danger > .panel-heading {
+}
+
+.panel-footer {
+    background-color: white;
+    border-top: white;
+    padding: 0;
+}
+
+.panel-primary > .panel-heading {
+}
+
+.panel {
+    width:1300px;
+}
+
+.btn-info {
+    background-color: #247F50;
+}
+.footer {
+    width: 1300px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.footer-content {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.contact:hover {
+    text-decoration: none;
+}
+
+.carousel-inner {
+    width: 100%;
+}
+
+.carousel-inner .item img {
+    width: 100%;
+}
+
+.navbar-content {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-content li {
+    list-style: none;
+}
+
+.navbar-content li a {
+    color: grey;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.navbar-content li a:hover {
+    text-decoration: none;
+    color: green;
+}
+
+.glyphicon {
+    color: green;
+}
+
+.login-button a {
+    color: green;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.products {
+    width: 1300px;
+    margin: 0 auto;
+}
+
+.form-horizontal .control-label {
+    text-align: left !important;
+}
+
+.products-detail {
+    width: 90px;
+}
+
+.btn-success {
+    width: 110px;
+    color: #0C713D;
+    background-color: white;
+    border-color: #0C713D;
+}
+
+.cart-button-success:hover {
+    color: rgb(0,0,0,0.5)
+}
+
+.momo-payment {
+    width: 1000px;
+    margin: 10px auto;
+    display: flex;
+    box-shadow: rgba(149, 157, 165, 0.4) 0px 8px 24px;
+    border-radius: 4px;
+}
+
+.momo-detail {
+    display: block;
+    padding: 40px 20px;
+}
+
+.momo-detail p{
+    color: white;
+    font-size: 20px;
+}
+
+.momo-qr {
+    width: 70%;
+    padding: 25px;
+}
+
+.btn-info {
+    border-color: transparent;
+}
+
+.btn-info:hover {
+    background-color: #247f50c4;
+    border-color: #247F50;
+}
+
+.momo-detail-background {
+    display: block;
+    background-color: rgb(166, 56, 124);
+}
+
+.momo-payment-detail {
+    display: block;
+}
+
+.momo-detail .time {
+    font-size: 25px
+}
+
+.momo-detail div {
+    margin: 20px;
+}
+
+.momo-detail p {
+}
+
+.momo-detail h3 {
+    color: white;
+    font-size: 16px
+}
+
+.back-button a {
+   text-decoration: none;
+   color: white;
+   font-size: 16px;
+   margin: 25px auto;
+}
+
+.supplier p {
+    font-size: 16px
+}
+
+.header-momo {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 0.5px solid #80808066;
+}
+
+.header-momo .logo {
+    margin: 0;
+    padding: 10px 0;
+    width: 75px;
+}
+
+.header-momo .logo img {
+    width: 100%;
+}
+
+.momo-qr-content .header {
+    font-size: 30px;
+    text-align: center;
+    color: rgb(197, 79, 153);
+    font-weight: 700;
+}
+
+.momo-qr-content img {
+    width: 275px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.decs {
+    display: flex;
+    margin: 20px auto;
+    width: 400px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.loading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+}
+
+.paymen-icon-detail {
+    margin-right: 5px;
+}

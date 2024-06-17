@@ -1,0 +1,429 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\LTWeb\\Websitebancafe\\Bai3\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Bai3.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Bai3.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\LTWeb\\Websitebancafe\\Bai3\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\LTWeb\\Websitebancafe\\Bai3\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\LTWeb\\Websitebancafe\\Bai3\\wwwroot\\fonts\\glyphicons-halflings-regular.eot",
+      "PackagePath": "staticwebassets\\fonts\\glyphicons-halflings-regular.eot"
+    },
+    {
+      "Id": "D:\\LTWeb\\Websitebancafe\\Bai3\\wwwroot\\fonts\\glyphicons-halflings-regular.svg",
+      "PackagePath": "staticwebassets\\fonts\\glyphicons-halflings-regular.svg"
+    },
+    {
+      "Id": "D:\\LTWeb\\Websitebancafe\\Bai3\\wwwroot\\fonts\\glyphicons-halflings-regular.ttf",
+      "PackagePath": "staticwebassets\\fonts\\glyphicons-halflings-regular.ttf"
+    },
+    {
+      "Id": "D:\\LTWeb\\Websitebancafe\\Bai3\\wwwroot\\fonts\\glyphicons-halflings-regular.woff",
+      "PackagePath": "staticwebassets\\fonts\\glyphicons-halflings-regular.woff"
+    },
+    {
+      "Id": "D:\\LTWeb\\Websitebancafe\\Bai3\\wwwroot\\fonts\\glyphicons-halflings-regular.woff2",
+      "PackagePath": "staticwebassets\\fonts\\glyphicons-halflings-regular.woff2"
+    },
+    {
+      "Id": "D:\\LTWeb\\Websitebancafe\\Bai3\\wwwroot\\images\\products\\8a92bb4b37c012-cafe5mon01.png",
+      "PackagePath": "staticwebassets\\images\\products\\8a92bb4b37c012-cafe5mon01.png"
+    },
+    {
+      "Id": "D:\\LTWeb\\Websitebancafe\\Bai3\\wwwroot\\images\\products\\LogoPhucLong.png",
+      "PackagePath": "staticwebassets\\images\\products\\LogoPhucLong.png"
+    },
+    {
+      "Id": "D:\\LTWeb\\Websitebancafe\\Bai3\\wwwroot\\images\\products\\LogoPhucLong1.png",
+      "PackagePath": "staticwebassets\\images\\products\\LogoPhucLong1.png"
+    },
+    {
+      "Id": "D:\\LTWeb\\Websitebancafe\\Bai3\\wwwroot\\images\\products\\TraLai.png",
+      "PackagePath": "staticwebassets\\images\\products\\TraLai.png"
+    },
+    {
+      "Id": "D:\\LTWeb\\Websitebancafe\\Bai3\\wwwroot\\images\\products\\TraLaiThaiNguyenGoi.png",
+      "PackagePath": "staticwebassets\\images\\products\\TraLaiThaiNguyenGoi.png"
+    },
+    {
+      "Id": "D:\\LTWeb\\Websitebancafe\\Bai3\\wwwroot\\images\\products\\TraOLong.png",
+      "PackagePath": "staticwebassets\\images\\products\\TraOLong.png"
+    },
+    {
+      "Id": "D:\\LTWeb\\Websitebancafe\\Bai3\\wwwroot\\images\\products\\TraOlongLon.png",
+      "PackagePath": "staticwebassets\\images\\products\\TraOlongLon.png"
+    },
+    {
+      "Id": "D:\\LTWeb\\Websitebancafe\\Bai3\\wwwroot\\images\\products\\TraOlonggoi.png",
+      "PackagePath": "staticwebassets\\images\\products\\TraOlonggoi.png"
+    },
+    {
+      "Id": "D:\\LTWeb\\Websitebancafe\\Bai3\\wwwroot\\images\\products\\TraOlongthuonghang.png",
+      "PackagePath": "staticwebassets\\images\\products\\TraOlongthuonghang.png"
+    },
+    {
+      "Id": "D:\\LTWeb\\Websitebancafe\\Bai3\\wwwroot\\images\\products\\TraSen.png",
+      "PackagePath": "staticwebassets\\images\\products\\TraSen.png"
+    },
+    {
+      "Id": "D:\\LTWeb\\Websitebancafe\\Bai3\\wwwroot\\images\\products\\Traden.png",
+      "PackagePath": "staticwebassets\\images\\products\\Traden.png"
+    },
+    {
+      "Id": "D:\\LTWeb\\Websitebancafe\\Bai3\\wwwroot\\images\\products\\Trahoahong.png",
+      "PackagePath": "staticwebassets\\images\\products\\Trahoahong.png"
+    },
+    {
+      "Id": "D:\\LTWeb\\Websitebancafe\\Bai3\\wwwroot\\images\\products\\TralaiLon.png",
+      "PackagePath": "staticwebassets\\images\\products\\TralaiLon.png"
+    },
+    {
+      "Id": "D:\\LTWeb\\Websitebancafe\\Bai3\\wwwroot\\images\\products\\TrasenLon.png",
+      "PackagePath": "staticwebassets\\images\\products\\TrasenLon.png"
+    },
+    {
+      "Id": "D:\\LTWeb\\Websitebancafe\\Bai3\\wwwroot\\images\\products\\Travai.png",
+      "PackagePath": "staticwebassets\\images\\products\\Travai.png"
+    },
+    {
+      "Id": "D:\\LTWeb\\Websitebancafe\\Bai3\\wwwroot\\images\\products\\TraxanhtancuongDB.png",
+      "PackagePath": "staticwebassets\\images\\products\\TraxanhtancuongDB.png"
+    },
+    {
+      "Id": "D:\\LTWeb\\Websitebancafe\\Bai3\\wwwroot\\images\\products\\Traxanhthainguyen.png",
+      "PackagePath": "staticwebassets\\images\\products\\Traxanhthainguyen.png"
+    },
+    {
+      "Id": "D:\\LTWeb\\Websitebancafe\\Bai3\\wwwroot\\images\\products\\Trà Xanh.png",
+      "PackagePath": "staticwebassets\\images\\products\\Trà Xanh.png"
+    },
+    {
+      "Id": "D:\\LTWeb\\Websitebancafe\\Bai3\\wwwroot\\images\\products\\bacxiu.png",
+      "PackagePath": "staticwebassets\\images\\products\\bacxiu.png"
+    },
+    {
+      "Id": "D:\\LTWeb\\Websitebancafe\\Bai3\\wwwroot\\images\\products\\capudaxay.png",
+      "PackagePath": "staticwebassets\\images\\products\\capudaxay.png"
+    },
+    {
+      "Id": "D:\\LTWeb\\Websitebancafe\\Bai3\\wwwroot\\images\\products\\chanhdaxay.png",
+      "PackagePath": "staticwebassets\\images\\products\\chanhdaxay.png"
+    },
+    {
+      "Id": "D:\\LTWeb\\Websitebancafe\\Bai3\\wwwroot\\images\\products\\dathongbao.png",
+      "PackagePath": "staticwebassets\\images\\products\\dathongbao.png"
+    },
+    {
+      "Id": "D:\\LTWeb\\Websitebancafe\\Bai3\\wwwroot\\images\\products\\delivery-logo.png",
+      "PackagePath": "staticwebassets\\images\\products\\delivery-logo.png"
+    },
+    {
+      "Id": "D:\\LTWeb\\Websitebancafe\\Bai3\\wwwroot\\images\\products\\delivery.png",
+      "PackagePath": "staticwebassets\\images\\products\\delivery.png"
+    },
+    {
+      "Id": "D:\\LTWeb\\Websitebancafe\\Bai3\\wwwroot\\images\\products\\favicon.png",
+      "PackagePath": "staticwebassets\\images\\products\\favicon.png"
+    },
+    {
+      "Id": "D:\\LTWeb\\Websitebancafe\\Bai3\\wwwroot\\images\\products\\hongtrachanh.png",
+      "PackagePath": "staticwebassets\\images\\products\\hongtrachanh.png"
+    },
+    {
+      "Id": "D:\\LTWeb\\Websitebancafe\\Bai3\\wwwroot\\images\\products\\hongtradao.png",
+      "PackagePath": "staticwebassets\\images\\products\\hongtradao.png"
+    },
+    {
+      "Id": "D:\\LTWeb\\Websitebancafe\\Bai3\\wwwroot\\images\\products\\hongtradaosua.png",
+      "PackagePath": "staticwebassets\\images\\products\\hongtradaosua.png"
+    },
+    {
+      "Id": "D:\\LTWeb\\Websitebancafe\\Bai3\\wwwroot\\images\\products\\icon-gray.png",
+      "PackagePath": "staticwebassets\\images\\products\\icon-gray.png"
+    },
+    {
+      "Id": "D:\\LTWeb\\Websitebancafe\\Bai3\\wwwroot\\images\\products\\matcha-milktea (2).png",
+      "PackagePath": "staticwebassets\\images\\products\\matcha-milktea (2).png"
+    },
+    {
+      "Id": "D:\\LTWeb\\Websitebancafe\\Bai3\\wwwroot\\images\\products\\matcha-milktea.png",
+      "PackagePath": "staticwebassets\\images\\products\\matcha-milktea.png"
+    },
+    {
+      "Id": "D:\\LTWeb\\Websitebancafe\\Bai3\\wwwroot\\images\\products\\matchadaxay.png",
+      "PackagePath": "staticwebassets\\images\\products\\matchadaxay.png"
+    },
+    {
+      "Id": "D:\\LTWeb\\Websitebancafe\\Bai3\\wwwroot\\images\\products\\momo-logo.png",
+      "PackagePath": "staticwebassets\\images\\products\\momo-logo.png"
+    },
+    {
+      "Id": "D:\\LTWeb\\Websitebancafe\\Bai3\\wwwroot\\images\\products\\momo-qr.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\momo-qr.jpg"
+    },
+    {
+      "Id": "D:\\LTWeb\\Websitebancafe\\Bai3\\wwwroot\\images\\products\\nhandaxay.png",
+      "PackagePath": "staticwebassets\\images\\products\\nhandaxay.png"
+    },
+    {
+      "Id": "D:\\LTWeb\\Websitebancafe\\Bai3\\wwwroot\\images\\products\\oreocapudaxay.png",
+      "PackagePath": "staticwebassets\\images\\products\\oreocapudaxay.png"
+    },
+    {
+      "Id": "D:\\LTWeb\\Websitebancafe\\Bai3\\wwwroot\\images\\products\\phuclong2.png",
+      "PackagePath": "staticwebassets\\images\\products\\phuclong2.png"
+    },
+    {
+      "Id": "D:\\LTWeb\\Websitebancafe\\Bai3\\wwwroot\\images\\products\\suachuaxoaidacthom.png",
+      "PackagePath": "staticwebassets\\images\\products\\suachuaxoaidacthom.png"
+    },
+    {
+      "Id": "D:\\LTWeb\\Websitebancafe\\Bai3\\wwwroot\\images\\products\\tralaimangcaudaxay.png",
+      "PackagePath": "staticwebassets\\images\\products\\tralaimangcaudaxay.png"
+    },
+    {
+      "Id": "D:\\LTWeb\\Websitebancafe\\Bai3\\wwwroot\\images\\products\\tralucky.png",
+      "PackagePath": "staticwebassets\\images\\products\\tralucky.png"
+    },
+    {
+      "Id": "D:\\LTWeb\\Websitebancafe\\Bai3\\wwwroot\\images\\products\\trasuaolong.png",
+      "PackagePath": "staticwebassets\\images\\products\\trasuaolong.png"
+    },
+    {
+      "Id": "D:\\LTWeb\\Websitebancafe\\Bai3\\wwwroot\\images\\products\\trasuaphuclong.png",
+      "PackagePath": "staticwebassets\\images\\products\\trasuaphuclong.png"
+    },
+    {
+      "Id": "D:\\LTWeb\\Websitebancafe\\Bai3\\wwwroot\\images\\sliders\\DangTra.jpg",
+      "PackagePath": "staticwebassets\\images\\sliders\\DangTra.jpg"
+    },
+    {
+      "Id": "D:\\LTWeb\\Websitebancafe\\Bai3\\wwwroot\\images\\sliders\\DangTra1.jpg",
+      "PackagePath": "staticwebassets\\images\\sliders\\DangTra1.jpg"
+    },
+    {
+      "Id": "D:\\LTWeb\\Websitebancafe\\Bai3\\wwwroot\\images\\sliders\\Grandopening.jpg",
+      "PackagePath": "staticwebassets\\images\\sliders\\Grandopening.jpg"
+    },
+    {
+      "Id": "D:\\LTWeb\\Websitebancafe\\Bai3\\wwwroot\\images\\sliders\\Tachtra.jpg",
+      "PackagePath": "staticwebassets\\images\\sliders\\Tachtra.jpg"
+    },
+    {
+      "Id": "D:\\LTWeb\\Websitebancafe\\Bai3\\wwwroot\\images\\sliders\\caro1.png",
+      "PackagePath": "staticwebassets\\images\\sliders\\caro1.png"
+    },
+    {
+      "Id": "D:\\LTWeb\\Websitebancafe\\Bai3\\wwwroot\\images\\sliders\\caro2.png",
+      "PackagePath": "staticwebassets\\images\\sliders\\caro2.png"
+    },
+    {
+      "Id": "D:\\LTWeb\\Websitebancafe\\Bai3\\wwwroot\\images\\sliders\\caro3.png",
+      "PackagePath": "staticwebassets\\images\\sliders\\caro3.png"
+    },
+    {
+      "Id": "D:\\LTWeb\\Websitebancafe\\Bai3\\wwwroot\\images\\sliders\\caro4.png",
+      "PackagePath": "staticwebassets\\images\\sliders\\caro4.png"
+    },
+    {
+      "Id": "D:\\LTWeb\\Websitebancafe\\Bai3\\wwwroot\\images\\sliders\\monmoi.jpg",
+      "PackagePath": "staticwebassets\\images\\sliders\\monmoi.jpg"
+    },
+    {
+      "Id": "D:\\LTWeb\\Websitebancafe\\Bai3\\wwwroot\\images\\sliders\\nhungcotmocdangnho.jpg",
+      "PackagePath": "staticwebassets\\images\\sliders\\nhungcotmocdangnho.jpg"
+    },
+    {
+      "Id": "D:\\LTWeb\\Websitebancafe\\Bai3\\wwwroot\\js\\JavaScript.js",
+      "PackagePath": "staticwebassets\\js\\JavaScript.js"
+    },
+    {
+      "Id": "D:\\LTWeb\\Websitebancafe\\Bai3\\wwwroot\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\LTWeb\\Websitebancafe\\Bai3\\wwwroot\\js\\cart.js",
+      "PackagePath": "staticwebassets\\js\\cart.js"
+    },
+    {
+      "Id": "D:\\LTWeb\\Websitebancafe\\Bai3\\wwwroot\\js\\jquery.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\LTWeb\\Websitebancafe\\Bai3\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\LTWeb\\Websitebancafe\\Bai3\\wwwroot\\vendor\\font-awesome\\HELP-US-OUT.txt",
+      "PackagePath": "staticwebassets\\vendor\\font-awesome\\HELP-US-OUT.txt"
+    },
+    {
+      "Id": "D:\\LTWeb\\Websitebancafe\\Bai3\\wwwroot\\vendor\\font-awesome\\css\\font-awesome.css",
+      "PackagePath": "staticwebassets\\vendor\\font-awesome\\css\\font-awesome.css"
+    },
+    {
+      "Id": "D:\\LTWeb\\Websitebancafe\\Bai3\\wwwroot\\vendor\\font-awesome\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\vendor\\font-awesome\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "D:\\LTWeb\\Websitebancafe\\Bai3\\wwwroot\\vendor\\font-awesome\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\vendor\\font-awesome\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "D:\\LTWeb\\Websitebancafe\\Bai3\\wwwroot\\vendor\\font-awesome\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\vendor\\font-awesome\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "D:\\LTWeb\\Websitebancafe\\Bai3\\wwwroot\\vendor\\font-awesome\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\vendor\\font-awesome\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "D:\\LTWeb\\Websitebancafe\\Bai3\\wwwroot\\vendor\\font-awesome\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\vendor\\font-awesome\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "D:\\LTWeb\\Websitebancafe\\Bai3\\wwwroot\\vendor\\font-awesome\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\vendor\\font-awesome\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "D:\\LTWeb\\Websitebancafe\\Bai3\\wwwroot\\vendor\\font-awesome\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\vendor\\font-awesome\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "D:\\LTWeb\\Websitebancafe\\Bai3\\wwwroot\\vendor\\font-awesome\\less\\animated.less",
+      "PackagePath": "staticwebassets\\vendor\\font-awesome\\less\\animated.less"
+    },
+    {
+      "Id": "D:\\LTWeb\\Websitebancafe\\Bai3\\wwwroot\\vendor\\font-awesome\\less\\bordered-pulled.less",
+      "PackagePath": "staticwebassets\\vendor\\font-awesome\\less\\bordered-pulled.less"
+    },
+    {
+      "Id": "D:\\LTWeb\\Websitebancafe\\Bai3\\wwwroot\\vendor\\font-awesome\\less\\core.less",
+      "PackagePath": "staticwebassets\\vendor\\font-awesome\\less\\core.less"
+    },
+    {
+      "Id": "D:\\LTWeb\\Websitebancafe\\Bai3\\wwwroot\\vendor\\font-awesome\\less\\fixed-width.less",
+      "PackagePath": "staticwebassets\\vendor\\font-awesome\\less\\fixed-width.less"
+    },
+    {
+      "Id": "D:\\LTWeb\\Websitebancafe\\Bai3\\wwwroot\\vendor\\font-awesome\\less\\font-awesome.less",
+      "PackagePath": "staticwebassets\\vendor\\font-awesome\\less\\font-awesome.less"
+    },
+    {
+      "Id": "D:\\LTWeb\\Websitebancafe\\Bai3\\wwwroot\\vendor\\font-awesome\\less\\icons.less",
+      "PackagePath": "staticwebassets\\vendor\\font-awesome\\less\\icons.less"
+    },
+    {
+      "Id": "D:\\LTWeb\\Websitebancafe\\Bai3\\wwwroot\\vendor\\font-awesome\\less\\larger.less",
+      "PackagePath": "staticwebassets\\vendor\\font-awesome\\less\\larger.less"
+    },
+    {
+      "Id": "D:\\LTWeb\\Websitebancafe\\Bai3\\wwwroot\\vendor\\font-awesome\\less\\list.less",
+      "PackagePath": "staticwebassets\\vendor\\font-awesome\\less\\list.less"
+    },
+    {
+      "Id": "D:\\LTWeb\\Websitebancafe\\Bai3\\wwwroot\\vendor\\font-awesome\\less\\mixins.less",
+      "PackagePath": "staticwebassets\\vendor\\font-awesome\\less\\mixins.less"
+    },
+    {
+      "Id": "D:\\LTWeb\\Websitebancafe\\Bai3\\wwwroot\\vendor\\font-awesome\\less\\path.less",
+      "PackagePath": "staticwebassets\\vendor\\font-awesome\\less\\path.less"
+    },
+    {
+      "Id": "D:\\LTWeb\\Websitebancafe\\Bai3\\wwwroot\\vendor\\font-awesome\\less\\rotated-flipped.less",
+      "PackagePath": "staticwebassets\\vendor\\font-awesome\\less\\rotated-flipped.less"
+    },
+    {
+      "Id": "D:\\LTWeb\\Websitebancafe\\Bai3\\wwwroot\\vendor\\font-awesome\\less\\screen-reader.less",
+      "PackagePath": "staticwebassets\\vendor\\font-awesome\\less\\screen-reader.less"
+    },
+    {
+      "Id": "D:\\LTWeb\\Websitebancafe\\Bai3\\wwwroot\\vendor\\font-awesome\\less\\stacked.less",
+      "PackagePath": "staticwebassets\\vendor\\font-awesome\\less\\stacked.less"
+    },
+    {
+      "Id": "D:\\LTWeb\\Websitebancafe\\Bai3\\wwwroot\\vendor\\font-awesome\\less\\variables.less",
+      "PackagePath": "staticwebassets\\vendor\\font-awesome\\less\\variables.less"
+    },
+    {
+      "Id": "D:\\LTWeb\\Websitebancafe\\Bai3\\wwwroot\\vendor\\font-awesome\\scss\\_animated.scss",
+      "PackagePath": "staticwebassets\\vendor\\font-awesome\\scss\\_animated.scss"
+    },
+    {
+      "Id": "D:\\LTWeb\\Websitebancafe\\Bai3\\wwwroot\\vendor\\font-awesome\\scss\\_bordered-pulled.scss",
+      "PackagePath": "staticwebassets\\vendor\\font-awesome\\scss\\_bordered-pulled.scss"
+    },
+    {
+      "Id": "D:\\LTWeb\\Websitebancafe\\Bai3\\wwwroot\\vendor\\font-awesome\\scss\\_core.scss",
+      "PackagePath": "staticwebassets\\vendor\\font-awesome\\scss\\_core.scss"
+    },
+    {
+      "Id": "D:\\LTWeb\\Websitebancafe\\Bai3\\wwwroot\\vendor\\font-awesome\\scss\\_fixed-width.scss",
+      "PackagePath": "staticwebassets\\vendor\\font-awesome\\scss\\_fixed-width.scss"
+    },
+    {
+      "Id": "D:\\LTWeb\\Websitebancafe\\Bai3\\wwwroot\\vendor\\font-awesome\\scss\\_icons.scss",
+      "PackagePath": "staticwebassets\\vendor\\font-awesome\\scss\\_icons.scss"
+    },
+    {
+      "Id": "D:\\LTWeb\\Websitebancafe\\Bai3\\wwwroot\\vendor\\font-awesome\\scss\\_larger.scss",
+      "PackagePath": "staticwebassets\\vendor\\font-awesome\\scss\\_larger.scss"
+    },
+    {
+      "Id": "D:\\LTWeb\\Websitebancafe\\Bai3\\wwwroot\\vendor\\font-awesome\\scss\\_list.scss",
+      "PackagePath": "staticwebassets\\vendor\\font-awesome\\scss\\_list.scss"
+    },
+    {
+      "Id": "D:\\LTWeb\\Websitebancafe\\Bai3\\wwwroot\\vendor\\font-awesome\\scss\\_mixins.scss",
+      "PackagePath": "staticwebassets\\vendor\\font-awesome\\scss\\_mixins.scss"
+    },
+    {
+      "Id": "D:\\LTWeb\\Websitebancafe\\Bai3\\wwwroot\\vendor\\font-awesome\\scss\\_path.scss",
+      "PackagePath": "staticwebassets\\vendor\\font-awesome\\scss\\_path.scss"
+    },
+    {
+      "Id": "D:\\LTWeb\\Websitebancafe\\Bai3\\wwwroot\\vendor\\font-awesome\\scss\\_rotated-flipped.scss",
+      "PackagePath": "staticwebassets\\vendor\\font-awesome\\scss\\_rotated-flipped.scss"
+    },
+    {
+      "Id": "D:\\LTWeb\\Websitebancafe\\Bai3\\wwwroot\\vendor\\font-awesome\\scss\\_screen-reader.scss",
+      "PackagePath": "staticwebassets\\vendor\\font-awesome\\scss\\_screen-reader.scss"
+    },
+    {
+      "Id": "D:\\LTWeb\\Websitebancafe\\Bai3\\wwwroot\\vendor\\font-awesome\\scss\\_stacked.scss",
+      "PackagePath": "staticwebassets\\vendor\\font-awesome\\scss\\_stacked.scss"
+    },
+    {
+      "Id": "D:\\LTWeb\\Websitebancafe\\Bai3\\wwwroot\\vendor\\font-awesome\\scss\\_variables.scss",
+      "PackagePath": "staticwebassets\\vendor\\font-awesome\\scss\\_variables.scss"
+    },
+    {
+      "Id": "D:\\LTWeb\\Websitebancafe\\Bai3\\wwwroot\\vendor\\font-awesome\\scss\\font-awesome.scss",
+      "PackagePath": "staticwebassets\\vendor\\font-awesome\\scss\\font-awesome.scss"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Bai3.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Bai3.props",
+      "PackagePath": "build\\Bai3.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Bai3.props",
+      "PackagePath": "buildMultiTargeting\\Bai3.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Bai3.props",
+      "PackagePath": "buildTransitive\\Bai3.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,186 @@
+﻿@using System.Security.Claims
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phúc Long Coffee & Tea</title>
+    <meta name="keywords"
+          content="cafe, phúc long, phúc long cafe, matcha đá xay, phúc long coffee " />
+    <meta name="description" content="Phúc Long" />
+    <meta name="copyright" content="Phúc Long" />
+    <meta name="author" content="Phúc Long" />
+    <link rel="shortcut icon" href="/images/products/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="~/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/vendor/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+
+<body>
+        <div class="header" style="width:1300px; margin: 0 auto; margin-top: 10px">
+            <div class="header-logo" style="display: flex;
+            justify-content: space-between;
+            width: 1300px;
+            align-items: center;">
+                <div class="delivery-logo">
+                    <img src="/images/products/delivery.png" alt="" width="125px">
+                </div>
+                <div class="web-logo">
+                <a href="/trang-chu"><img src="/images/products/LogoPhucLong.png" alt="PhucLong" width="75px"></a>
+                </div>
+                <ul class="nav navbar-nav navbar-right">
+                    @if (User.Identity.IsAuthenticated)
+                    {
+                        string username = User.Identity.Name;
+                        string permission = User.FindFirst(ClaimTypes.Role)?.Value;
+                        if (permission == "1")
+                        {
+                            <li>
+                                <a href="quan-tri">
+                                    <span class="glyphicon glyphicon-cog"></span>
+                                </a>
+                            </li>
+                        }
+                        else
+                        {
+                            <li>
+                                <a href="gio-hang">
+                                    <span class="glyphicon glyphicon-shopping-cart"></span>
+                                </a>
+                            </li>
+                        }
+                        <li>
+                        <a href="thong-tin" style="color:green; border-top: black;">
+                                <span class="glyphicon glyphicon-user"></span>
+                                @username
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="dang-xuat">
+                                <span class="glyphicon glyphicon-log-out"></span>
+                            </a>
+                        </li>
+                    }
+                    else
+                    {
+                        <li class="login-button">
+                            <a href="dang-ky">
+                                <span class="glyphicon glyphicon-user"></span> Đăng ký
+                            </a>
+                        </li>
+                        <li class="login-button">
+                            <a href="dang-nhap">
+                                <span class="glyphicon glyphicon-log-in"></span> Đăng nhập
+                            </a>
+                        </li>
+                    }
+                </ul>
+            </div>
+            <div class="navbar">
+                @await Html.PartialAsync("_MenuPartial")
+            </div>
+        </div>
+
+    <div class="content">
+        <div>
+            <div>
+                @RenderBody()
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="footer-content">
+            <div>
+                <h4><b>Phúc Long</b></h4>
+                <p>
+                    Trụ sở chính: Công ty Cổ Phần Phúc Long Heritage - ĐKKD: 0316 871719
+                    do sở KHĐT TPHCM cấp lần đầu ngày 21/05/2021
+                </p>
+                <p>SĐT: <a class="contact" href="tel:18006779">1800 6779</a></p>
+                <p>Email: <a class="contact" href="mailto: info2@phuclong.masangroup.com">info2@phuclong.masangroup.com</a></p>
+            </div>
+
+            <div style="display:flex; justify-content: end;">
+                <img src="/images//products/dathongbao.png" alt="logo" width="70%" />
+            </div>
+        </div>
+    </div>
+
+    <div id="modalSignup" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Đăng ký</h4>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="username">Username:</label>
+                            <input type="text" class="form-control" id="username" placeholder="Nhập username" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="fullname">Họ tên:</label>
+                            <input type="text" class="form-control" id="fullname" placeholder="Nhập họ tên" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="address">Địa chỉ:</label>
+                            <input type="text" class="form-control" id="address" placeholder="Nhập địa chỉ">
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Số điện thoại:</label>
+                            <input type="tel" class="form-control" id="phone" placeholder="Nhập số điện thoại">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email:</label>
+                            <input type="email" class="form-control" id="email" placeholder="Nhập email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Mật khẩu:</label>
+                            <input type="password" class="form-control" id="password" placeholder="Nhập mật khẩu" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="confirmPassword">Nhập lại mật khẩu:</label>
+                            <input type="password" class="form-control" id="confirmPassword" placeholder="Nhập lại mật khẩu" required>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Đăng ký</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="modalLogin" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Đăng nhập</h4>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="username">Username:</label>
+                            <input type="text" class="form-control" id="username" placeholder="Nhập username" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Mật khẩu:</label>
+                            <input type="password" class="form-control" id="password" placeholder="Nhập mật khẩu" required>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Đăng nhập</button>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
+
